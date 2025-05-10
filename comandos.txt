@@ -1,0 +1,16 @@
+Aluno: Luan Henrique Souza Damasceno
+
+Comandos:
+git init
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+git add texto.txt
+git commit -m "Arquivo texto.txt adicionado"
+git checkout -b feature-1
+git add texto.txt
+git commit -m "Arquivo texto.txt modificado na branch feature-1"
+git checkout master
+git add texto.txt
+git commit - m "Arquivo texto.txt modificado na branch main"
+git merge feature-1
+git add texto.txt
+git commit -m "Conflito entre main e feature-1 resolvido"
